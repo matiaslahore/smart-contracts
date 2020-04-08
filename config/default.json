@@ -1,0 +1,31 @@
+{
+  "App": {
+    "apiKey": "test"
+  },
+  "MySql": {
+    "dbConfig": {
+      "connectionLimit": 10,
+      "host": "localhost",
+      "user": "root",
+      "password": "root",
+      "database": "api_ether",
+      "port": 3306,
+      "ssl": false
+    }
+  },
+  "Branch": {
+    "uri": "https://api.branch.io/v1/",
+    "branchKey": "test",
+    "branchSecret": "test"
+  },
+  "Web3": {
+    "Provider": {
+      "uri": "http://localhost:8545",
+      "adminPass": "test",
+      "adminAccount": "0x2"
+    },
+    "Contracts": {
+      "batteryV2": "0xbccc714d56bc0da0fd33d96d2a87b680dd6d0df6"
+    }
+  }
+}

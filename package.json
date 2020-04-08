@@ -1,0 +1,43 @@
+{
+  "name": "insuranceService",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "NODE_ENV=production node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^8.2.1",
+    "body-parser": "^1.17.2",
+    "config": "^1.26.2",
+    "email-existence": "^0.1.5",
+    "eslint": "^4.16.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "express": "^4.15.3",
+    "helmet": "^3.6.1",
+    "log4js": "^2.3.3",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.4.2",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "slash": "^1.0.0",
+    "solc": "^0.4.10-1",
+    "web3": "^0.20.1"
+  },
+  "noAnalyze": true,
+  "engines": {
+    "node": "~8.4.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2"
+  }
+}
